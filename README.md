@@ -33,7 +33,8 @@ Make sure you have the following installed:
 Navigate to the client directory and install dependencies.
      ```bash
      cd client
-     yarn install  
+     yarn install 
+     ```
 
 #### 3. Server Setup (Django)
 Navigate to the server directory and create a virtual environment:
@@ -42,16 +43,18 @@ Navigate to the server directory and create a virtual environment:
    python -m venv env
    source env/bin/activate  # for Linux/Mac
    env\Scripts\activate     # for Windows
+   ```
 
 #### Install dependencies:
      ```bash
      pip install -r requirements.txt
-
+     ```
 # Running the Application
 #### Running the Frontend
 1.In the client directory, start the frontend application:
      ```bash
       yarn start
+      ```
 
 
 
