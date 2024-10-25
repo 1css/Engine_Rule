@@ -29,7 +29,7 @@ Make sure you have the following installed:
 
 #### 2. Client Setup (React)
 Navigate to the client directory and install dependencies.
-     ```bash
+     ```
      cd client
      yarn install 
      ```
