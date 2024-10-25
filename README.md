@@ -7,8 +7,6 @@
 4. [Running the Application](#running-the-application)
 5. [Design Choices](#design-choices)
 6. [Dependencies](#dependencies)
-7. [Docker Containers](#docker-containers)
-8. [Troubleshooting](#troubleshooting)
 
 ---
 
@@ -51,12 +49,33 @@ Navigate to the server directory and create a virtual environment:
      ```
 # Running the Application
 #### Running the Frontend
-1.In the client directory, start the frontend application:
+**In the client directory, start the frontend application:**
+
      ```bash
       yarn start
       ```
 
+# Running the Backend
+**In the server directory, apply migrations:**
+     ```bash
+     python manage.py migrate
+     ```
+**Start the Django server**
+     ```bash
+     python manage.py runserver
+     ```
 
+# Docker Containers
+To run the application in Docker containers, make sure you have Docker installed and running.
 
+## Design Choices
+**Frontend: React was chosen for its efficiency in handling UI components and its popularity in modern web applications.**
+**Backend: Django was selected for its robust framework and ease of integrating REST APIs.**
+**Containers: Docker was used to create isolated environments for consistency across development and production.**
 
-
+# Dependencies
+**Client:**
+   **React, React Router**
+   **Axios (for API calls)**
+**Server:**
+   **Django, Django REST framework**
