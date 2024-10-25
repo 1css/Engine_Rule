@@ -51,19 +51,18 @@ Navigate to the server directory and create a virtual environment:
 #### Running the Frontend
 **In the client directory, start the frontend application:**
 
-     ```bash
       yarn start
-      ```
+  
 
 # Running the Backend
 **In the server directory, apply migrations:**
-     ```bash
+
      python manage.py migrate
-     ```
+
 **Start the Django server**
-     ```bash
+    
      python manage.py runserver
-     ```
+
 
 # Docker Containers
 To run the application in Docker containers, make sure you have Docker installed and running.
