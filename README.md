@@ -28,9 +28,9 @@ Make sure you have the following installed:
    ```
 
 #### 2. Client Setup (React)
-Navigate to the client directory and install dependencies. \
+Navigate to the client directory and install dependencies. 
 
-     cd client \
+     cd client 
      yarn install 
    
 
@@ -44,9 +44,9 @@ Navigate to the server directory and create a virtual environment:
   
 
 #### Install dependencies:
-     ```bash
+    
      pip install -r requirements.txt
-     ```
+   
 # Running the Application
 #### Running the Frontend
 **In the client directory, start the frontend application:**
