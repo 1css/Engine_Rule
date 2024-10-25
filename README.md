@@ -27,3 +27,32 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/yourusername/Engine-Rule-master.git
    cd Engine-Rule-master
+
+#### 2. Client Setup (React)
+Navigate to the client directory and install dependencies.
+     ```bash
+     cd client
+     yarn install
+
+#### 3. Server Setup (Django)
+Navigate to the server directory and create a virtual environment:
+   ```bash
+   cd ../server
+   python -m venv env
+   source env/bin/activate  # for Linux/Mac
+   env\Scripts\activate     # for Windows
+
+#### Install dependencies:
+     ```bash
+     pip install -r requirements.txt
+
+# Running the Application
+#### Running the Frontend
+1.In the client directory, start the frontend application:
+     ```bash
+      yarn start
+
+
+
+
+
