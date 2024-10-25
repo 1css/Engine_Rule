@@ -28,20 +28,20 @@ Make sure you have the following installed:
    ```
 
 #### 2. Client Setup (React)
-Navigate to the client directory and install dependencies.
-     ```
-     cd client
+Navigate to the client directory and install dependencies. \
+
+     cd client \
      yarn install 
-     ```
+   
 
 #### 3. Server Setup (Django)
 Navigate to the server directory and create a virtual environment:
-   ```bash
+  
    cd ../server
    python -m venv env
    source env/bin/activate  # for Linux/Mac
    env\Scripts\activate     # for Windows
-   ```
+  
 
 #### Install dependencies:
      ```bash
